@@ -7,11 +7,11 @@ model =  joblib.load("naive_bayes.joblib")
 vectorizer = joblib.load("vectorizer.joblib")
 
 # Menyetel tema Streamlit
-st.set_page_config(page_title="Analisis Sentimen pada Opini Film", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Analisis Sentimen pada Komentar matanajwa", layout="wide", initial_sidebar_state="expanded")
 
 # Judul dan deskripsi
-st.title("Analisis Sentimen pada Opini Film")
-st.write("Analisis sentimen pada opini film menggunakan dataset Twitter.")
+st.title("Analisis Sentimen pada Opini Komentar")
+st.write("Analisis sentimen pada Komentar menggunakan dataset Matanajwa.")
 
 # Input teks dan tombol prediksi
 with st.container():
