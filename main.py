@@ -10,7 +10,7 @@ vectorizer = joblib.load("vectorizer.joblib")
 st.set_page_config(page_title="Analisis Sentimen pada Komentar matanajwa", layout="wide", initial_sidebar_state="expanded")
 
 # Judul dan deskripsi
-st.title("Analisis Sentimen pada Opini Komentar di Matanajwa")
+st.title("Analisis Sentimen pada Komentar Matanajwa")
 st.write("Analisis sentimen Komentar menggunakan dataset Matanajwa.")
 
 # Input teks dan tombol prediksi
